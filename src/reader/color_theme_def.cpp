@@ -49,6 +49,16 @@ const std::vector<std::pair<std::string, ColorTheme>> theme_defs = {
             {0, 0, 0, 0},   // highlight text
         }
     },
+    {
+        "spruce",
+        {
+            {40, 40, 40, 0},   // background
+            {235, 219, 178, 0}, // main text
+            {96, 0, 0, 0},  // secondary text
+            {104, 157, 106, 0}, // highlight background
+            {40, 40, 40, 0},   // highlight text
+        }
+    },
 };
 
 int get_theme_index(const std::string &name)
